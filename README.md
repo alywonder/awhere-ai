@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: column; align-items: start; justify-content: center; border-bottom: 1px solid #666; margin-bottom: 10px;">
+<div style="display: flex; flex-direction: column;">
 <table align="center">
 <tr>
 <td>
@@ -6,11 +6,16 @@
 </td>
 <td>
 <h1>⧊where (awhere)<sup>*</sup>: Agents Anywhere</h1>
-<p><em>an agentic platform for building agentic organizations</em></p>
+<p><em>An agentic platform for building agentic organizations.</em></p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<sub>* ⧊where (awhere) is pronounced <i>aware</i> (uh-wehr).</sub>
 </td>
 </tr>
 </table>
-<span style="font-size:8pt; color:#666;">* ⧊where (awhere) is pronounced <i>aware</i> (uh-wehr).</span>
+<!-- <span style="font-size:8pt; color:#666;">* ⧊where (awhere) is pronounced <i>aware</i> (uh-wehr).</span> -->
 </div>
 
 <!--
