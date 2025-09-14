@@ -1,4 +1,4 @@
-<div align="center" style="display: flex; flex-direction: column; align-items: start; justify-content: center; border-bottom: 1px solid #666; margin-bottom: 10px;">
+<div align="left" style="display: flex; flex-direction: column; align-items: start; justify-content: center; border-bottom: 1px solid #666; margin-bottom: 10px;">
 <table align="center">
 <tr>
 <td>
