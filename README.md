@@ -1,18 +1,31 @@
-<h1 align="center">⧊where (awhere)<sup>*</sup>: Agents Anywhere</h1>
-<p align="center">
-<em>an agentic platform for building agentic organizations</em>
-</p>
-<span style="font-size:8pt; color:#666;">* ⧊where is pronounced <i>aware</i> (uh-wehr) and is written as <i>awhere</i> in code and file names.</span>
+<table align="center">
+<tr>
+<td>
+<img src="./public/assets/images/logos/awhere-logo.svg" alt="⧊where Logo" width="100"/>
+</td>
+<td>
+<h1>⧊where (awhere)<sup>*</sup>: Agents Anywhere</h1>
+<p><em>an agentic platform for building agentic organizations</em></p>
+</td>
+</tr>
+</table>
+<span style="font-size:8pt; color:#666;">* ⧊where (awhere) is pronounced <i>aware</i> (uh-wehr).</span>
 
-<!-- 
+<!--
 Badges to be added here.
 -->
 
 ---
-⧊where is a platform for building agentic organizations—collaborative digital environments where intelligent agents and humans co-create, operate, and continuously adapt to achieve defined goals.
+
+⧊where is a platform for building agentic organizations—collaborative digital environments where intelligent agents and humans come together to iteratively build systems that transform creative ideas into measurable value outcomes.
+
+The platform is born out of our firm belief in the role of _human beings as idea generators_ and the role of _organizations as playgrounds_ for implementation and experimentation of ideas generating value.
+
+### Our Vision
+
+We believe in the power of ideas, and we want to empower anyone to turn their ideas into reality—removing the barriers of access and availability of technical expertise through secure and verifiable agent based systems.
 
 ### Core Ideas
-
 
 ---
 
