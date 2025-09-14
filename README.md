@@ -1,7 +1,7 @@
 <table align="center">
 <tr>
 <td>
-<img src="./public/assets/images/logos/awhere-logo.svg" alt="⧊where Logo" width="100"/>
+<img src="./public/assets/logos/awhere.svg" alt="⧊where Logo" width="100"/>
 </td>
 <td>
 <h1>⧊where (awhere)<sup>*</sup>: Agents Anywhere</h1>
