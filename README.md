@@ -1,3 +1,4 @@
+<div align="center" style="display: flex; flex-direction: column; align-items: start; justify-content: center; border-bottom: 1px solid #666; margin-bottom: 10px;">
 <table align="center">
 <tr>
 <td>
@@ -10,12 +11,11 @@
 </tr>
 </table>
 <span style="font-size:8pt; color:#666;">* ⧊where (awhere) is pronounced <i>aware</i> (uh-wehr).</span>
+</div>
 
 <!--
 Badges to be added here.
 -->
-
----
 
 ⧊where is a platform for building agentic organizations—collaborative digital environments where intelligent agents and humans come together to iteratively build systems that transform creative ideas into measurable value outcomes.
 
