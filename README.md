@@ -67,7 +67,7 @@ The core ideas of ⧊where platform are:
                 actions --o agents
                 actions --o workflows
             end
-            specs -- models
+            specs --> models
             models --> Automation
         end
         subgraph Deployments
