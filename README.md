@@ -32,6 +32,30 @@ We believe in the power of ideas, and we want to empower anyone to turn their id
 
 ### Core Ideas
 
+```mermaid
+flowchart TD
+    ideas@{ shape: stadium, label: "Core Ideas" }
+    idea-to-production@{ shape: tag-rect, label: "Idea to Production" }
+    models-to-adaptive-systems@{ shape: tag-rect, label: "Models to Adaptive Systems" }
+    composable-actions-to-complex-behaviors@{ shape: tag-rect, label: "Composable Actions to Complex Behaviors" }
+    conversational-agents-to-collaborative-workspaces@{ shape: tag-rect, label: "Conversational Agents to Collaborative Workspaces" }
+    live-playgrounds@{ shape: tag-rect, label: "Live Playgrounds and Scenario Builders" }
+    ideas --> idea-to-production
+    ideas --> models-to-adaptive-systems
+    ideas --> composable-actions-to-complex-behaviors
+    ideas --> conversational-agents-to-collaborative-workspaces
+    ideas --> live-playgrounds
+
+```
+
+The core ideas of ⧊where platform are:
+
+1. **Idea to Production**:
+2. **Models to Adaptive Systems**:
+3. **Composable Actions to Complex Behaviors**:
+4. **Live Playgrounds to Scenarios Generation**:
+5. **Conversational Agents to Collaborative Workspaces**:
+
 ---
 
-<span style="font-size:4pt; font-color: #666;">Copyright &copy; 2025 Weavers @ Eternal Loom. All rights reserved.</span>
+<span style="font-size:4pt; color: #666;">Copyright &copy; 2025 Weavers @ Eternal Loom. All rights reserved.</span>
