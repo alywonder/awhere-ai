@@ -39,7 +39,7 @@ flowchart TD
     models-to-adaptive-systems@{ shape: tag-rect, label: "Models to Adaptive Systems" }
     composable-actions-to-complex-behaviors@{ shape: tag-rect, label: "Composable Actions to Complex Behaviors" }
     conversational-agents-to-collaborative-workspaces@{ shape: tag-rect, label: "Conversational Agents to Collaborative Workspaces" }
-    live-playgrounds@{ shape: tag-rect, label: "Live Playgrounds and Scenario Builders" }
+    live-playgrounds@{ shape: tag-rect, label: "Live Playgrounds to Scenario Builders" }
     ideas --> idea-to-production
     ideas --> models-to-adaptive-systems
     ideas --> composable-actions-to-complex-behaviors
