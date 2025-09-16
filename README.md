@@ -82,10 +82,10 @@ The core ideas of ⧊where platform are:
     idea eip@==> Awhere
     eip@{ animate: true }
    ```
-2. **Composable Actions to Complex Behaviors**:
-3. **Models to Adaptive Systems**:
-4. **Live Playgrounds to Scenarios Generation**:
-5. **Conversational Agents to Collaborative Workspaces**:
+2. **Composable Actions to Complex Behaviors**: Building sophisticated system capabilities through the composition of simple, reusable action primitives. Rather than creating monolithic behaviors, the platform enables combining atomic actions—like data retrieval, transformation, validation, or communication—into emergent complex workflows that can adapt and evolve as requirements change.
+3. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt their behavior based on context, feedback, and evolving requirements. These adaptive systems can modify their decision-making processes and optimize performance autonomously.
+4. **Live Playgrounds to Scenarios Generation**: Converting interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what-if analyses. This enables rapid experimentation and validation of ideas across diverse conditions before production deployment.
+5. **Conversational Agents to Collaborative Workspaces**: Evolving simple chatbots into sophisticated collaborative environments where multiple agents and humans work together seamlessly, sharing context, coordinating tasks, and building upon each other's contributions to achieve complex organizational goals. These collaborative environments support rich user interfaces and multiple modalities for effective problem solving with humans in the loop.
 
 ---
 
