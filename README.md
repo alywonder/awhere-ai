@@ -87,6 +87,8 @@ The core ideas of ⧊where platform are:
 4. **Live Playgrounds to Scenarios Generation**: Converting interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what-if analyses. This enables rapid experimentation and validation of ideas across diverse conditions before production deployment.
 5. **Conversational Agents to Collaborative Workspaces**: Evolving simple chatbots into sophisticated collaborative environments where multiple agents and humans work together seamlessly, sharing context, coordinating tasks, and building upon each other's contributions to achieve complex organizational goals. These collaborative environments support rich user interfaces and multiple modalities for effective problem solving with humans in the loop.
 
+### High Level Approach
+
 ---
 
 <span style="font-size:4pt; color: #666;">Copyright &copy; 2025 Weavers @ Eternal Loom. All rights reserved.</span>
