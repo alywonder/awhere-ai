@@ -97,7 +97,21 @@ The core ideas of ⧊where platform are:
    While supporting such _grean field_ solutions using the platform, the true power and usefulness of the platform comes from its ability to build on the existing legacy systems of the organization. This enables incremental transformation of existing organizations into agentic organizations. This is accomplished by extracting the models from existing codebases, databases and APIs and using the same modeks → actions pipeline to build on the existing systems. The realization of the actions will then leverage the existing APIs, databases and codebases of the organization by wrapping them in appropriate tools, agents and workflows.
 
 2. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt their behavior based on context, feedback, and evolving requirements. These adaptive systems can modify their decision-making processes and optimize performance autonomously.
+
+   A strong model driven approach is central to the platform. A multi-layered model hierarchy with schema evolution capabilities is the foundation of the platform.
+
+   ```mermaid
+   flowchart BT
+    metamodel@{ shape: subproc, label: "Metamodel" }
+    orgmodel@{ shape: subproc, label: "Organization Models" }
+    solutionmodel@{ shape: subproc, label: "Solution Models" }
+    metamodel --> orgmodel
+    metamodel --> solutionmodel
+    orgmodel --> solutionmodel
+   ```
+
 3. **Composable Actions to Complex Behaviors**: Building sophisticated system capabilities through the composition of simple, reusable action primitives. Rather than creating monolithic behaviors, the platform enables combining atomic actions—like data retrieval, transformation, validation, or communication—into emergent complex workflows that can adapt and evolve as requirements change.
+
 4. **Live Playgrounds to Scenarios Generation**: Converting interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what-if analyses. This enables rapid experimentation and validation of ideas across diverse conditions before production deployment.
 5. **Conversational Agents to Collaborative Workspaces**: Evolving simple chatbots into sophisticated collaborative environments where multiple agents and humans work together seamlessly, sharing context, coordinating tasks, and building upon each other's contributions to achieve complex organizational goals. These collaborative environments support rich user interfaces and multiple modalities for effective problem solving with humans in the loop.
 
