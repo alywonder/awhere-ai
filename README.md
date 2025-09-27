@@ -27,7 +27,7 @@ The platform is born out of our firm belief in the role of _human beings as idea
 
 ### Our Vision
 
-We believe in the power of ideas and aim to help anyone turn ideas into reality—removing barriers to technical expertise through secure, verifiable, agent-based systems.
+We believe in the power of ideas, and we want to empower anyone to turn their ideas into reality—removing the barriers of access and availability of technical expertise through secure and verifiable agent based systems.
 
 ### Core Ideas
 
@@ -46,9 +46,9 @@ flowchart TD
     ideas --> live-playgrounds
 ```
 
-The core ideas of the ⧊where platform are:
+The core ideas of ⧊where platform are:
 
-1. **Idea to Production**: The ability to go from simple idea descriptions to production-ready systems.
+1. **Idea to Production**: Ability to start from simple descriptions of ideas to production-ready systems.
 
    ```mermaid
    flowchart TB
@@ -92,10 +92,14 @@ The core ideas of the ⧊where platform are:
     eip@{ animate: true }
    ```
 
-2. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt behavior based on context, feedback, and evolving requirements. These systems modify decision-making and optimize performance autonomously.
-3. **Composable Actions to Complex Behaviors**: Build sophisticated capabilities by composing simple, reusable action primitives. Rather than monolithic behaviors, the platform enables combining atomic actions—such as data retrieval, transformation, validation, and communication—into emergent, complex workflows that adapt as requirements evolve.
-4. **Live Playgrounds to Scenario Generation**: Turn interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what‑if analyses. This enables rapid experimentation and validation across diverse conditions before production deployment.
-5. **Conversational Agents to Collaborative Workspaces**: Evolve simple chatbots into sophisticated collaborative environments where multiple agents and humans work together, sharing context, coordinating tasks, and building on each other’s contributions to achieve complex goals. These environments support rich interfaces and multiple modalities for effective problem‑solving with humans in the loop.
+   The platform converts ideas captured from conversations with users (descriptions of what they want to build) into specifications. The specification are then used to generate models from which action specifications (interface definitions) are generated. These actions are realized through actual tools,agents and workflows.
+
+   While developing such _grean field_ solutions using the platform, the true power and usefulness of the platform comes from its ability to build on the existing legacy systems of the organization. This enables incremental transformation of existing organizations into agentic organizations. This is accomplished by extracting the models from existing codebases, databases and APIs and using the same modeks → actions pipeline to build on the existing systems. The realization of the actions will then leverage the existing APIs, databases and codebases of the organization by wrapping them in appropriate tools, agents and workflows.
+
+2. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt their behavior based on context, feedback, and evolving requirements. These adaptive systems can modify their decision-making processes and optimize performance autonomously.
+3. **Composable Actions to Complex Behaviors**: Building sophisticated system capabilities through the composition of simple, reusable action primitives. Rather than creating monolithic behaviors, the platform enables combining atomic actions—like data retrieval, transformation, validation, or communication—into emergent complex workflows that can adapt and evolve as requirements change.
+4. **Live Playgrounds to Scenarios Generation**: Converting interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what-if analyses. This enables rapid experimentation and validation of ideas across diverse conditions before production deployment.
+5. **Conversational Agents to Collaborative Workspaces**: Evolving simple chatbots into sophisticated collaborative environments where multiple agents and humans work together seamlessly, sharing context, coordinating tasks, and building upon each other's contributions to achieve complex organizational goals. These collaborative environments support rich user interfaces and multiple modalities for effective problem solving with humans in the loop.
 
 ### High Level Approach
 
