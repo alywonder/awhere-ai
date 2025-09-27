@@ -49,25 +49,34 @@ flowchart TD
 The core ideas of ⧊where platform are:
 
 1. **Idea to Production**: Ability to start from simple descriptions of ideas to production-ready systems.
+
    ```mermaid
    flowchart TB
     idea@{ shape: manual-input, label: "Input Ideas" }
     subgraph Awhere
         direction TB
-        arun@{ shape: lin-rect, label: "Awhere Runtime" }
+        arun@{ shape: div-rect, label: "⧊where Runtime" }
         subgraph Generated
             direction TB
+            description@{ shape: dbl-circ, label: "Descriptions" }
             specs@{ shape: docs, label: "Specifications" }
+            code@{ shape: docs, label: "Codebase" }
+            db@{ shape: docs, label: "Databases" }
             models@{ shape: lin-cyl, label: "Models" }
             subgraph Automation
                 direction TB
                 actions@{ shape: processes, label: "Actions" }
+                tools@{ shape: processes, label: "Tools" }
                 agents@{ shape: processes, label: "Agents" }
                 workflows@{ shape: processes, label: "Workflows" }
+                actions --o tools
                 actions --o agents
                 actions --o workflows
             end
+            description --> specs
+            code --> models
             specs --> models
+            db --> models
             models --> Automation
         end
         subgraph Deployments
@@ -82,8 +91,9 @@ The core ideas of ⧊where platform are:
     idea eip@==> Awhere
     eip@{ animate: true }
    ```
-2. **Composable Actions to Complex Behaviors**: Building sophisticated system capabilities through the composition of simple, reusable action primitives. Rather than creating monolithic behaviors, the platform enables combining atomic actions—like data retrieval, transformation, validation, or communication—into emergent complex workflows that can adapt and evolve as requirements change.
-3. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt their behavior based on context, feedback, and evolving requirements. These adaptive systems can modify their decision-making processes and optimize performance autonomously.
+
+2. **Models to Adaptive Systems**: Transforming static AI models into dynamic, self-improving systems that learn from interactions and adapt their behavior based on context, feedback, and evolving requirements. These adaptive systems can modify their decision-making processes and optimize performance autonomously.
+3. **Composable Actions to Complex Behaviors**: Building sophisticated system capabilities through the composition of simple, reusable action primitives. Rather than creating monolithic behaviors, the platform enables combining atomic actions—like data retrieval, transformation, validation, or communication—into emergent complex workflows that can adapt and evolve as requirements change.
 4. **Live Playgrounds to Scenarios Generation**: Converting interactive development environments into powerful scenario builders that generate realistic test cases, simulation environments, and what-if analyses. This enables rapid experimentation and validation of ideas across diverse conditions before production deployment.
 5. **Conversational Agents to Collaborative Workspaces**: Evolving simple chatbots into sophisticated collaborative environments where multiple agents and humans work together seamlessly, sharing context, coordinating tasks, and building upon each other's contributions to achieve complex organizational goals. These collaborative environments support rich user interfaces and multiple modalities for effective problem solving with humans in the loop.
 
